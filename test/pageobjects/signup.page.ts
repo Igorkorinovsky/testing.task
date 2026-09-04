@@ -28,8 +28,8 @@ class SignUpPage extends Page {
     await this.submitBtn.click()
   }
 
-  open(): Promise<string> {
-    return super.open('signup')
+  async open(): Promise<void> {
+    await super.open('signup')
   }
 }
 

@@ -8,7 +8,8 @@
     ],
     "types": [
       "node",
-      "mocha"
+      "mocha",
+      "@wdio/globals/types"
     ],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

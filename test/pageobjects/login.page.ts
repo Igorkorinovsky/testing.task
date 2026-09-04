@@ -28,8 +28,8 @@ class LoginPage extends Page {
     await this.submitButton.click()
   }
 
-  open(): Promise<string> {
-    return super.open('login')
+  async open(): Promise<void> {
+    await super.open('login')
   }
 }
 

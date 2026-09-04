@@ -1,9 +1,20 @@
-import type { Options } from '@wdio/types'
 import chromedriver from 'chromedriver'
 
 process.env.CHROMEDRIVER_PATH = chromedriver.path
 
-export const config: Options.Testrunner = {
+type WdioConfig = WebdriverIO.Config & {
+  autoCompileOpts?: {
+    autoCompile: boolean;
+    tsNodeOpts: {
+      project: string;
+      transpileOnly: boolean;
+      esm: boolean;
+      files: boolean;
+    };
+  };
+}
+
+export const config: WdioConfig = {
   runner: 'local',
   specs: ['./test/specs/**/*.ts'],
   maxInstances: 10,
