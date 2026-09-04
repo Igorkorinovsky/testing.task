@@ -1,67 +1,35 @@
 # QA Lab Auth Automation
 
-This project contains WebdriverIO end-to-end tests written in JavaScript (ES modules) for the authentication flows on the QA Lab site:
-
-- Sign Up page
-- Login page
-- navigation between pages
-- positive and negative validation scenarios
-
-This is a WebdriverIO project, not a TypeScript project.
+Small WebdriverIO + TypeScript project for testing the authentication flows on the QA Lab app.
 
 ## Stack
-
-- WebdriverIO
+- WebdriverIO v9
+- TypeScript
 - Mocha
-- JavaScript (ES modules)
-- Chrome browser
-- Node.js
+- Chrome + ChromeDriver
 
-## Prerequisites
+## What is covered
+- sign up success flow
+- login success flow
+- navigation between signup and login pages
+- negative validation cases for invalid email/password
 
-- Node.js 18+
-- Google Chrome installed
-- npm
-
-## Installation
-
+## Install
 ```bash
 npm install
 ```
 
 ## Run tests
-
-To run all tests:
-
 ```bash
 npm test
 ```
 
-To run a specific spec file:
-
+Optional single spec:
 ```bash
-npx wdio run ./wdio.conf.js --spec ./test/specs/test.e2e.js
+npx wdio run ./wdio.conf.ts --spec ./test/specs/test.e2e.ts
 ```
 
-## Project structure
-
-```text
-.
-├── .gitignore
-├── README.md
-├── package.json
-├── wdio.conf.js
-├── test/
-│   ├── pageobjects/
-│   │   ├── page.js
-│   │   ├── login.page.js
-│   │   ├── signup.page.js
-│   │   └── secure.page.js
-│   └── specs/
-│       └── test.e2e.js
-└── node_modules/
+## Type check
+```bash
+npx tsc --noEmit
 ```
-
-## Notes
-
-The project includes a fixed ChromeDriver configuration to match the local Chrome version on the machine and prevent browser-driver version mismatch issues during local execution.
