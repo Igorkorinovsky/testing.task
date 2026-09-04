@@ -77,3 +77,4 @@
 [ 1798989ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
 [ 1948137ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
 [ 2225232ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 2758339ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
