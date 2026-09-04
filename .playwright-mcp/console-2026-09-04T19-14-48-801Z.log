@@ -1,0 +1,79 @@
+[     434ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[     488ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[     489ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[     570ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[    3492ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[   14982ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[   15016ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   15017ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   15070ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[   17941ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[   35531ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[   35563ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   35564ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   35624ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[   38561ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[   42535ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[   42570ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   42570ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   42639ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[   45383ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[   63581ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[   85729ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  108848ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  133939ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  163035ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  200133ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  211974ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[  212026ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[  212026ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[  212106ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[  216887ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[  221732ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[  222178ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[  222225ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[  222226ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[  222308ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[  226900ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[  230857ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[  236384ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[  236433ms] [WARNING] No routes matched location "/login"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[  236434ms] [WARNING] No routes matched location "/login"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[  236513ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/login:0
+[  238736ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signin:0
+[  257542ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  279641ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  302808ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  327948ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  357072ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  394134ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  447305ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  532448ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  681550ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[  958659ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1491734ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1494238ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[ 1494302ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[ 1494303ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[ 1494393ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[ 1496652ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[ 1498570ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[ 1498612ms] [WARNING] No routes matched location "/login"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[ 1498613ms] [WARNING] No routes matched location "/login"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[ 1498678ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/login:0
+[ 1500785ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signin:0
+[ 1503148ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[ 1503197ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[ 1503198ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[ 1503283ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[ 1505383ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api.qa-lab.dev.dnc.pp.ua/api/auth/signup:0
+[ 1524177ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1546339ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1569446ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1594514ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1623670ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1660738ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1713887ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1798989ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 1948137ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[ 2225232ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003

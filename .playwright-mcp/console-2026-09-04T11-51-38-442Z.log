@@ -1,0 +1,11 @@
+[     142ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[     183ms] [WARNING] No routes matched location "/login"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[     183ms] [WARNING] No routes matched location "/login"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[     299ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/login:0
+[   21177ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
+[   32691ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[   32716ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   32716ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   32775ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[   35641ms] [WARNING] No routes matched location "/profile/create"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[   35641ms] [WARNING] No routes matched location "/profile/create"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942

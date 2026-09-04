@@ -1,0 +1,5 @@
+[     794ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:27030
+[     859ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[     860ms] [WARNING] No routes matched location "/signup"  @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:28942
+[     968ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://qa-lab.dev.dnc.pp.ua/signup:0
+[   21850ms] [ERROR] WebSocket connection to 'wss://qa-lab.dev.dnc.pp.ua:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT @ https://qa-lab.dev.dnc.pp.ua/static/js/bundle.js:45003
