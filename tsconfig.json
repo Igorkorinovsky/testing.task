@@ -8,8 +8,7 @@
     ],
     "types": [
       "node",
-      "mocha",
-      "@wdio/globals/types"
+      "@playwright/test"
     ],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

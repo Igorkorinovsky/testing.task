@@ -1,115 +1,121 @@
-import { expect, browser } from '@wdio/globals'
-import SignUpPage from '../pageobjects/signup.page.js'
-import LoginPage from '../pageobjects/login.page.js'
+import { test, expect, Page } from '@playwright/test'
+import { SignUpPage } from '../pageobjects/signup.page.js'
+import { LoginPage } from '../pageobjects/login.page.js'
 
-describe('QA Lab authentication', () => {
-  beforeEach(async () => {
-    await browser.setWindowSize(1280, 900)
+test.describe('QA Lab authentication', () => {
+  let signUpPage: SignUpPage
+  let loginPage: LoginPage
+
+  test.beforeEach(async ({ page }) => {
+    await page.setViewportSize({ width: 1280, height: 900 })
+    signUpPage = new SignUpPage(page)
+    loginPage = new LoginPage(page)
   })
 
-  it('should render the sign up form with required fields', async () => {
-    await SignUpPage.open()
+  test('should render the sign up form with required fields', async () => {
+    await signUpPage.open()
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/signup')
-    await expect(SignUpPage.form).toBeDisplayed()
-    await expect(SignUpPage.emailInput).toBeDisplayed()
-    await expect(SignUpPage.passwordInput).toBeDisplayed()
-    await expect(SignUpPage.submitBtn).toHaveText('Sign up')
-    await expect(SignUpPage.loginLink).toHaveText('Login')
+    await expect(signUpPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/signup')
+    await expect(signUpPage.form).toBeVisible()
+    await expect(signUpPage.emailInput).toBeVisible()
+    await expect(signUpPage.passwordInput).toBeVisible()
+    await expect(signUpPage.submitBtn).toContainText('Sign up')
+    await expect(signUpPage.loginLink).toContainText('Login')
   })
 
-  it('should navigate from sign up to login page', async () => {
-    await SignUpPage.open()
-    await SignUpPage.loginLink.click()
+  test('should navigate from sign up to login page', async () => {
+    await signUpPage.open()
+    await signUpPage.loginLink.click()
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/login')
+    await expect(signUpPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/login')
   })
 
-  it('should render the login form with required fields', async () => {
-    await LoginPage.open()
+  test('should render the login form with required fields', async () => {
+    await loginPage.open()
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/login')
-    await expect(LoginPage.form).toBeDisplayed()
-    await expect(LoginPage.emailInput).toBeDisplayed()
-    await expect(LoginPage.passwordInput).toBeDisplayed()
-    await expect(LoginPage.submitButton).toHaveText('Login')
-    await expect(LoginPage.signUpLink).toHaveText('Sign up')
+    await expect(loginPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/login')
+    await expect(loginPage.form).toBeVisible()
+    await expect(loginPage.emailInput).toBeVisible()
+    await expect(loginPage.passwordInput).toBeVisible()
+    await expect(loginPage.submitButton).toContainText('Login')
+    await expect(loginPage.signUpLink).toContainText('Sign up')
   })
 
-  it('should navigate from login to sign up page', async () => {
-    await LoginPage.open()
-    await LoginPage.signUpLink.click()
+  test('should navigate from login to sign up page', async () => {
+    await loginPage.open()
+    await loginPage.signUpLink.click()
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/signup')
+    await expect(loginPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/signup')
   })
 
-  it('should accept values in the sign up form', async () => {
-    const email = `wdio_${Date.now()}@example.com`
+  test('should accept values in the sign up form', async () => {
+    const email = `playwright_${Date.now()}@example.com`
     const password = 'Password123!'
 
-    await SignUpPage.open()
-    await SignUpPage.signUp(email, password)
+    await signUpPage.open()
+    await signUpPage.signUp(email, password)
 
-    await expect(SignUpPage.emailInput).toHaveValue(email)
-    await expect(SignUpPage.passwordInput).toHaveValue(password)
+    await expect(signUpPage.emailInput).toHaveValue(email)
+    await expect(signUpPage.passwordInput).toHaveValue(password)
   })
 
-  it('should not sign up with invalid email format', async () => {
+  test('should not sign up with invalid email format', async () => {
     const email = 'invalid-email'
     const password = 'Password123!'
 
-    await SignUpPage.open()
-    await SignUpPage.signUp(email, password)
+    await signUpPage.open()
+    await signUpPage.signUp(email, password)
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/signup')
-    await expect(SignUpPage.emailInput).toHaveValue(email)
-    await expect(SignUpPage.passwordInput).toHaveValue(password)
+    await expect(signUpPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/signup')
+    await expect(signUpPage.emailInput).toHaveValue(email)
+    await expect(signUpPage.passwordInput).toHaveValue(password)
   })
 
-  it('should not sign up with a short password', async () => {
-    const email = `wdio_short_${Date.now()}@example.com`
+  test('should not sign up with a short password', async () => {
+    const email = `playwright_short_${Date.now()}@example.com`
     const password = '123'
 
-    await SignUpPage.open()
-    await SignUpPage.signUp(email, password)
+    await signUpPage.open()
+    await signUpPage.signUp(email, password)
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/signup')
-    await expect(SignUpPage.emailInput).toHaveValue(email)
-    await expect(SignUpPage.passwordInput).toHaveValue(password)
+    await expect(signUpPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/signup')
+    await expect(signUpPage.emailInput).toHaveValue(email)
+    await expect(signUpPage.passwordInput).toHaveValue(password)
   })
 
-  it('should accept values in the login form', async () => {
-    const email = 'wdio@example.com'
+  test('should accept values in the login form', async () => {
+    const email = 'playwright@example.com'
     const password = 'Password123!'
 
-    await LoginPage.open()
-    await LoginPage.login(email, password)
+    await loginPage.open()
+    await loginPage.login(email, password)
 
-    await expect(LoginPage.emailInput).toHaveValue(email)
-    await expect(LoginPage.passwordInput).toHaveValue(password)
+    await expect(loginPage.emailInput).toHaveValue(email)
+    await expect(loginPage.passwordInput).toHaveValue(password)
   })
 
-  it('should not login with wrong credentials', async () => {
+  test('should not login with wrong credentials', async () => {
     const email = 'wrong.user@example.com'
     const password = 'WrongPassword123!'
 
-    await LoginPage.open()
-    await LoginPage.login(email, password)
+    await loginPage.open()
+    await loginPage.login(email, password)
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/login')
-    await expect(LoginPage.emailInput).toHaveValue(email)
-    await expect(LoginPage.passwordInput).toHaveValue(password)
+    await expect(loginPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/login')
+    await expect(loginPage.emailInput).toHaveValue(email)
+    await expect(loginPage.passwordInput).toHaveValue(password)
   })
 
-  it('should not login with empty password', async () => {
-    const email = 'wdio@example.com'
+  test('should not login with empty password', async () => {
+    const email = 'playwright@example.com'
     const password = ''
 
-    await LoginPage.open()
-    await LoginPage.login(email, password)
+    await loginPage.open()
+    await loginPage.login(email, password)
 
-    await expect(browser).toHaveUrl('https://qa-lab.dev.dnc.pp.ua/login')
-    await expect(LoginPage.emailInput).toHaveValue(email)
-    await expect(LoginPage.passwordInput).toHaveValue(password)
+    await expect(loginPage.page).toHaveURL('https://qa-lab.dev.dnc.pp.ua/login')
+    await expect(loginPage.emailInput).toHaveValue(email)
+    await expect(loginPage.passwordInput).toHaveValue(password)
   })
 })
+

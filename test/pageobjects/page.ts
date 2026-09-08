@@ -1,7 +1,14 @@
-import { browser } from '@wdio/globals'
+import { Page } from '@playwright/test'
 
-export default class Page {
-  async open(path = ''): Promise<void> {
-    await browser.url(`https://qa-lab.dev.dnc.pp.ua/${path}`)
+export class BasePage {
+  page: Page
+
+  constructor(page: Page) {
+    this.page = page
+  }
+
+  async open(path: string = ''): Promise<void> {
+    await this.page.goto(`https://qa-lab.dev.dnc.pp.ua/${path}`)
   }
 }
+

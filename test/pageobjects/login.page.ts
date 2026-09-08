@@ -1,30 +1,34 @@
-import { $ } from '@wdio/globals'
-import Page from './page.js'
+import { Page, Locator } from '@playwright/test'
+import { BasePage } from './page.js'
 
-class LoginPage extends Page {
-  get form() {
-    return $('form')
+export class LoginPage extends BasePage {
+  constructor(page: Page) {
+    super(page)
   }
 
-  get emailInput() {
-    return $('#email')
+  get form(): Locator {
+    return this.page.locator('form')
   }
 
-  get passwordInput() {
-    return $('#password')
+  get emailInput(): Locator {
+    return this.page.locator('#email')
   }
 
-  get submitButton() {
-    return $('button[type="submit"]')
+  get passwordInput(): Locator {
+    return this.page.locator('#password')
   }
 
-  get signUpLink() {
-    return $('a[href="/signup"]')
+  get submitButton(): Locator {
+    return this.page.locator('button[type="submit"]')
+  }
+
+  get signUpLink(): Locator {
+    return this.page.locator('a[href="/signup"]')
   }
 
   async login(email: string, password: string): Promise<void> {
-    await this.emailInput.setValue(email)
-    await this.passwordInput.setValue(password)
+    await this.emailInput.fill(email)
+    await this.passwordInput.fill(password)
     await this.submitButton.click()
   }
 
@@ -33,4 +37,3 @@ class LoginPage extends Page {
   }
 }
 
-export default new LoginPage()
