@@ -19,6 +19,6 @@
   },
   "include": [
     "test/**/*.ts",
-    "wdio.conf.ts"
+    "playwright.config.ts"
   ]
 }
