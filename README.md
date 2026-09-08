@@ -1,12 +1,11 @@
 # QA Lab Auth Automation
 
-Small WebdriverIO + TypeScript project for testing the authentication flows on the QA Lab app.
+Small Playwright + TypeScript project for testing the authentication flows on the QA Lab app.
 
 ## Stack
-- WebdriverIO v9
+- Playwright
 - TypeScript
-- Mocha
-- Chrome + ChromeDriver
+- Chromium
 
 ## What is covered
 - sign up success flow
@@ -24,9 +23,14 @@ npm install
 npm test
 ```
 
-Optional single spec:
+Run in headed mode to see the browser window:
 ```bash
-npx wdio run ./wdio.conf.ts --spec ./test/specs/test.e2e.ts
+npx playwright test --headed
+```
+
+Run a specific spec:
+```bash
+npx playwright test test/specs/test.e2e.ts --headed
 ```
 
 ## Type check
